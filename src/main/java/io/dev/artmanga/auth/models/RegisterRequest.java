@@ -1,0 +1,11 @@
+package io.dev.artmanga.auth.models;
+
+import lombok.Data;
+
+@Data
+public class RegisterRequest {
+
+    private String username;
+    private String email;
+    private String password;
+}
